@@ -1,0 +1,10 @@
+version = 0.1
+
+[develop.deploy.parameters]
+stack_name = "test-lambda"
+resolve_s3 = true
+s3_prefix = "test-lambda"
+region = "us-east-1"
+profile = "admin"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
